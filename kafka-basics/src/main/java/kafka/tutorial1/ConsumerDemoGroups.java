@@ -1,4 +1,4 @@
-package com.github.fac30ff.kafka.tutorial1;
+package kafka.tutorial1;
 
 import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.serialization.StringDeserializer;
