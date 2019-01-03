@@ -13,6 +13,7 @@
         <module>kafka-basics</module>
         <module>kafka-consumer-elasticserach</module>
         <module>kafka-streams-filter-tweets</module>
+        <module>kafka-connect-beginner</module>
     </modules>
 
     <dependencies>
