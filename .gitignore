@@ -4,3 +4,8 @@ target
 out
 /home/irudenko/IdeaProjects/kafkabeginnerscourse/kafka-consumer-elasticserach/src/main/resources/creds.properties
 creds.properties
+zk-single-kafka-single/*
+zk-single-kafka-multiple/*
+zk-multiple-kafka-single/*
+zk-multiple-kafka-multiple/*
+full-stack/*
