@@ -14,6 +14,7 @@
         <module>kafka-consumer-elasticserach</module>
         <module>kafka-streams-filter-tweets</module>
         <module>kafka-connect-beginner</module>
+        <module>kafka-connect-github-source</module>
     </modules>
 
     <dependencies>
