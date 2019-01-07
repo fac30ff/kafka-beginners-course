@@ -19,6 +19,7 @@
         <module>avro-examples</module>
       <module>kafka-avro-v1</module>
         <module>kafka-avro-v2</module>
+      <module>kafka-medium-blog</module>
     </modules>
 
     <dependencies>
