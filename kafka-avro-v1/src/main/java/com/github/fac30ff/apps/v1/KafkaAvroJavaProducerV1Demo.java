@@ -20,7 +20,7 @@ public class KafkaAvroJavaProducerV1Demo {
         properties.setProperty("value.serializer", KafkaAvroSerializer.class.getName());
         properties.setProperty("schema.registry.url", "http://127.0.0.1:8081");
 
-        Producer<String, Customer> producer = new KafkaProducer<String, Customer>(properties);
+        Producer<String, Customer> producer = new KafkaProducer<>(properties);
 
         String topic = "customer-avro";
 
@@ -34,19 +34,16 @@ public class KafkaAvroJavaProducerV1Demo {
                 .setWeight(75f)
                 .build();
 
-        ProducerRecord<String, Customer> producerRecord = new ProducerRecord<String, Customer>(
+        ProducerRecord<String, Customer> producerRecord = new ProducerRecord<>(
                 topic, customer
         );
 
         System.out.println(customer);
-        producer.send(producerRecord, new Callback() {
-            @Override
-            public void onCompletion(RecordMetadata metadata, Exception exception) {
-                if (exception == null) {
-                    System.out.println(metadata);
-                } else {
-                    exception.printStackTrace();
-                }
+        producer.send(producerRecord, (metadata, exception) -> {
+            if (exception == null) {
+                System.out.println(metadata);
+            } else {
+                exception.printStackTrace();
             }
         });
 
