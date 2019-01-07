@@ -16,6 +16,9 @@
         <module>kafka-connect-beginner</module>
         <module>kafka-connect-github-source</module>
       <module>kafka-schema-registry-avro</module>
+        <module>avro-examples</module>
+      <module>kafka-avro-v1</module>
+        <module>kafka-avro-v2</module>
     </modules>
 
     <dependencies>
