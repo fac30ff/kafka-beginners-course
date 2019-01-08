@@ -1,4 +1,4 @@
-package com.github.fa30ff.kafka.apps.v2;
+package com.github.fac30ff.kafka.apps.v2;
 
 import com.example.Customer;
 import io.confluent.kafka.serializers.KafkaAvroDeserializer;
