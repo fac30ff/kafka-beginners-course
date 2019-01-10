@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>word-count</module>
+        <module>favourite-color</module>
+        <module>favourite-color-old-kafka-stream</module>
     </modules>
 
 
