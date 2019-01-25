@@ -15,6 +15,7 @@
         <module>word-count</module>
         <module>favourite-color</module>
         <module>favourite-color-old-kafka-stream</module>
+        <module>bank-balance</module>
     </modules>
 
 
