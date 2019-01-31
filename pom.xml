@@ -21,6 +21,7 @@
         <module>kafka-avro-v2</module>
         <module>kafka-medium-blog</module>
         <module>kafka-streams-course</module>
+        <module>user-event-enricher</module>
     </modules>
 
     <dependencies>
